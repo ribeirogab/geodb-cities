@@ -28,7 +28,7 @@ yarn add geodb-cities
 const geodb = require('geodb-cities');
 
 (async () => {
-  const { data, pageInfo } = await geodb.findCountries({ limit: 10, page: 0 })
+  const { data, pageInfo } = await geodb.findCountries({ limit: 1, page: 0 })
 
   console.log(data);
   /* Array of countries
@@ -54,13 +54,21 @@ const geodb = require('geodb-cities');
 })();
 ```
 
+## Limits
+
+[To know all the limits of GeoDB](http://geodb-cities-api.wirefreethought.com/pricing)
+
+- **limit**: The maximum number (in the free version) for the ``limit`` parameter is 10.
+
+
+
 ## Features
 
 Click for more info:
 
-- [Find Countries]();
-- [Find Country Regions]():
-- [Find Country Region Cities]():
+- [Find Countries](https://github.com/ribeirogab/geodb-cities/blob/main/doc/findCountries.md);
+- [Find Country Regions](https://github.com/ribeirogab/geodb-cities/blob/main/doc/findCountryRegions.md):
+- [Find Country Region Cities](https://github.com/ribeirogab/geodb-cities/blob/main/doc/findCountryRegionCities.md):
 
 ---
 
