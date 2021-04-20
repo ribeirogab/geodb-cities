@@ -2,9 +2,9 @@
 <img src="https://i.ibb.co/WysD55S/geodb-cities.png" alt="GeoDB Cities" width="250"/>
 </h1> -->
 
-# geodb-cities
+# 🌍 geodb-cities
 
-> 🌍  a wrapper for GeoDB Cities
+> a wrapper for GeoDB Cities
 
 ## Getting Started
 
