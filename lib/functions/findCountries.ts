@@ -3,13 +3,13 @@ import { api } from '../api';
 import { CountryProps } from '../types/Country';
 import { PageInfoProps } from '../types/PageInfo';
 
-interface FindCountriesProps {
+export interface FindCountriesProps {
   page?: number;
   limit?: number;
   namePrefix?: string;
 }
 
-interface ResponseProps {
+export interface ResponseProps {
   data: CountryProps[];
   pageInfo: PageInfoProps;
 }

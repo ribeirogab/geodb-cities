@@ -8,7 +8,7 @@ import { SortByProps } from '../types/SortBy';
 
 import { formatSort } from '../helpers/formatSort';
 
-interface FindCountryRegionCities {
+export interface FindCountryRegionCities {
   page?: number;
   limit?: number;
   languageCode?: LanguageCodeProps;
@@ -17,7 +17,7 @@ interface FindCountryRegionCities {
   regionCode: string;
 }
 
-interface ResponseProps {
+export interface ResponseProps {
   data: CityProps[];
   pageInfo: PageInfoProps;
 }

@@ -5,7 +5,7 @@ import { RegionProps } from '../types/Region';
 import { PageInfoProps } from '../types/PageInfo';
 import { LanguageCodeProps } from '../types/Language';
 
-interface FindCountryRegionsProps {
+export interface FindCountryRegionsProps {
   page?: number;
   limit?: number;
   countryCode: ContryCodeProps;
@@ -13,7 +13,7 @@ interface FindCountryRegionsProps {
   languageCode?: LanguageCodeProps;
 }
 
-interface ResponseProps {
+export interface ResponseProps {
   data: RegionProps[];
   pageInfo: PageInfoProps;
 }
