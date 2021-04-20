@@ -1,0 +1,12 @@
+.git
+.vscode
+tests
+test.*
+
+.editorconfig
+.eslintignore
+.eslintrc.json
+.gitignore
+prettier.config.js
+tsconfig.json
+.DS_Store
